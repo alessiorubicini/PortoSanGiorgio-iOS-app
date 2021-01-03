@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3A138E259F5911003B6CA2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3A138D259F5911003B6CA2 /* MapView.swift */; };
+		CF3A1396259F6034003B6CA2 /* PlaceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3A1395259F6034003B6CA2 /* PlaceCard.swift */; };
+		CF3A1399259F603B003B6CA2 /* PlaceSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3A1398259F603B003B6CA2 /* PlaceSheet.swift */; };
+		CF4E7DD925A0744400E135A8 /* TopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E7DD825A0744400E135A8 /* TopicView.swift */; };
+		CF6E2488259F515B00750094 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E2487259F515B00750094 /* ActivityCard.swift */; };
+		CF6E2490259F55A500750094 /* ActivitySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E248F259F55A500750094 /* ActivitySheet.swift */; };
+		CFF95B26259F38E000DA9AA9 /* Porto_San_GiorgioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF95B25259F38E000DA9AA9 /* Porto_San_GiorgioApp.swift */; };
+		CFF95B2A259F38E000DA9AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF95B29259F38E000DA9AA9 /* Assets.xcassets */; };
+		CFF95B2D259F38E000DA9AA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF95B2C259F38E000DA9AA9 /* Preview Assets.xcassets */; };
+		CFF95B38259F391000DA9AA9 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF95B37259F391000DA9AA9 /* Place.swift */; };
+		CFF95B3F259F394700DA9AA9 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF95B3E259F394700DA9AA9 /* Activity.swift */; };
+		CFF95B42259F395700DA9AA9 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF95B41259F395700DA9AA9 /* Topic.swift */; };
+		CFF95B47259F3E7100DA9AA9 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF95B46259F3E7100DA9AA9 /* CityView.swift */; };
+		CFF95B4A259F3E8200DA9AA9 /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF95B49259F3E8200DA9AA9 /* ActivitiesView.swift */; };
+		CFF95B4D259F3E8C00DA9AA9 /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF95B4C259F3E8C00DA9AA9 /* PlacesView.swift */; };
+		CFF95B50259F3F0500DA9AA9 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF95B4F259F3F0500DA9AA9 /* InfoView.swift */; };
+		CFF95B55259F413000DA9AA9 /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF95B54259F413000DA9AA9 /* RoundedImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF3A138D259F5911003B6CA2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CF3A1395259F6034003B6CA2 /* PlaceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCard.swift; sourceTree = "<group>"; };
+		CF3A1398259F603B003B6CA2 /* PlaceSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSheet.swift; sourceTree = "<group>"; };
+		CF4E7DD825A0744400E135A8 /* TopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicView.swift; sourceTree = "<group>"; };
+		CF6E2487259F515B00750094 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
+		CF6E248F259F55A500750094 /* ActivitySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySheet.swift; sourceTree = "<group>"; };
+		CFF95B22259F38E000DA9AA9 /* Porto San Giorgio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Porto San Giorgio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF95B25259F38E000DA9AA9 /* Porto_San_GiorgioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porto_San_GiorgioApp.swift; sourceTree = "<group>"; };
+		CFF95B29259F38E000DA9AA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFF95B2C259F38E000DA9AA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFF95B2E259F38E000DA9AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF95B37259F391000DA9AA9 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		CFF95B3E259F394700DA9AA9 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		CFF95B41259F395700DA9AA9 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		CFF95B46259F3E7100DA9AA9 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		CFF95B49259F3E8200DA9AA9 /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesView.swift; sourceTree = "<group>"; };
+		CFF95B4C259F3E8C00DA9AA9 /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
+		CFF95B4F259F3F0500DA9AA9 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		CFF95B54259F413000DA9AA9 /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFF95B1F259F38E000DA9AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF6E248B259F558200750094 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				CFF95B49259F3E8200DA9AA9 /* ActivitiesView.swift */,
+				CF6E2487259F515B00750094 /* ActivityCard.swift */,
+				CF6E248F259F55A500750094 /* ActivitySheet.swift */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		CF6E248C259F558D00750094 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				CFF95B46259F3E7100DA9AA9 /* CityView.swift */,
+				CF4E7DD825A0744400E135A8 /* TopicView.swift */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		CF6E248D259F559300750094 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				CFF95B4C259F3E8C00DA9AA9 /* PlacesView.swift */,
+				CF3A1395259F6034003B6CA2 /* PlaceCard.swift */,
+				CF3A1398259F603B003B6CA2 /* PlaceSheet.swift */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		CFF95B19259F38E000DA9AA9 = {
+			isa = PBXGroup;
+			children = (
+				CFF95B24259F38E000DA9AA9 /* Porto San Giorgio */,
+				CFF95B23259F38E000DA9AA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF95B23259F38E000DA9AA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF95B22259F38E000DA9AA9 /* Porto San Giorgio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFF95B24259F38E000DA9AA9 /* Porto San Giorgio */ = {
+			isa = PBXGroup;
+			children = (
+				CFF95B25259F38E000DA9AA9 /* Porto_San_GiorgioApp.swift */,
+				CFF95B29259F38E000DA9AA9 /* Assets.xcassets */,
+				CFF95B2E259F38E000DA9AA9 /* Info.plist */,
+				CFF95B35259F38EC00DA9AA9 /* Model */,
+				CFF95B36259F38F800DA9AA9 /* View */,
+				CFF95B2B259F38E000DA9AA9 /* Preview Content */,
+			);
+			path = "Porto San Giorgio";
+			sourceTree = "<group>";
+		};
+		CFF95B2B259F38E000DA9AA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFF95B2C259F38E000DA9AA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFF95B35259F38EC00DA9AA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFF95B37259F391000DA9AA9 /* Place.swift */,
+				CFF95B3E259F394700DA9AA9 /* Activity.swift */,
+				CFF95B41259F395700DA9AA9 /* Topic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFF95B36259F38F800DA9AA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF6E248C259F558D00750094 /* City */,
+				CF6E248B259F558200750094 /* Activities */,
+				CF6E248D259F559300750094 /* Places */,
+				CFF95B4F259F3F0500DA9AA9 /* InfoView.swift */,
+				CFF95B53259F411F00DA9AA9 /* Others */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFF95B53259F411F00DA9AA9 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				CF3A138D259F5911003B6CA2 /* MapView.swift */,
+				CFF95B54259F413000DA9AA9 /* RoundedImage.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFF95B21259F38E000DA9AA9 /* Porto San Giorgio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF95B31259F38E000DA9AA9 /* Build configuration list for PBXNativeTarget "Porto San Giorgio" */;
+			buildPhases = (
+				CFF95B1E259F38E000DA9AA9 /* Sources */,
+				CFF95B1F259F38E000DA9AA9 /* Frameworks */,
+				CFF95B20259F38E000DA9AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Porto San Giorgio";
+			productName = "Porto San Giorgio";
+			productReference = CFF95B22259F38E000DA9AA9 /* Porto San Giorgio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF95B1A259F38E000DA9AA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CFF95B21259F38E000DA9AA9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = CFF95B1D259F38E000DA9AA9 /* Build configuration list for PBXProject "Porto San Giorgio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFF95B19259F38E000DA9AA9;
+			productRefGroup = CFF95B23259F38E000DA9AA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFF95B21259F38E000DA9AA9 /* Porto San Giorgio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFF95B20259F38E000DA9AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF95B2D259F38E000DA9AA9 /* Preview Assets.xcassets in Resources */,
+				CFF95B2A259F38E000DA9AA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFF95B1E259F38E000DA9AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF95B50259F3F0500DA9AA9 /* InfoView.swift in Sources */,
+				CF3A138E259F5911003B6CA2 /* MapView.swift in Sources */,
+				CF3A1396259F6034003B6CA2 /* PlaceCard.swift in Sources */,
+				CFF95B38259F391000DA9AA9 /* Place.swift in Sources */,
+				CFF95B47259F3E7100DA9AA9 /* CityView.swift in Sources */,
+				CFF95B55259F413000DA9AA9 /* RoundedImage.swift in Sources */,
+				CF6E2488259F515B00750094 /* ActivityCard.swift in Sources */,
+				CFF95B42259F395700DA9AA9 /* Topic.swift in Sources */,
+				CFF95B4D259F3E8C00DA9AA9 /* PlacesView.swift in Sources */,
+				CF6E2490259F55A500750094 /* ActivitySheet.swift in Sources */,
+				CFF95B4A259F3E8200DA9AA9 /* ActivitiesView.swift in Sources */,
+				CFF95B26259F38E000DA9AA9 /* Porto_San_GiorgioApp.swift in Sources */,
+				CFF95B3F259F394700DA9AA9 /* Activity.swift in Sources */,
+				CF3A1399259F603B003B6CA2 /* PlaceSheet.swift in Sources */,
+				CF4E7DD925A0744400E135A8 /* TopicView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFF95B2F259F38E000DA9AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFF95B30259F38E000DA9AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFF95B32259F38E000DA9AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Porto San Giorgio/Preview Content\"";
+				DEVELOPMENT_TEAM = FXED6Z9HSN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Porto San Giorgio/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.AlessioRubicini.Porto-San-Giorgio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFF95B33259F38E000DA9AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Porto San Giorgio/Preview Content\"";
+				DEVELOPMENT_TEAM = FXED6Z9HSN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Porto San Giorgio/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.AlessioRubicini.Porto-San-Giorgio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFF95B1D259F38E000DA9AA9 /* Build configuration list for PBXProject "Porto San Giorgio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF95B2F259F38E000DA9AA9 /* Debug */,
+				CFF95B30259F38E000DA9AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF95B31259F38E000DA9AA9 /* Build configuration list for PBXNativeTarget "Porto San Giorgio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF95B32259F38E000DA9AA9 /* Debug */,
+				CFF95B33259F38E000DA9AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFF95B1A259F38E000DA9AA9 /* Project object */;
+}
